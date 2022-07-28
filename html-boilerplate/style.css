@@ -1,0 +1,40 @@
+.main{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 20%;
+    height: 50px;
+    margin: 20px;
+    transition: all 0.07s;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.Rock{
+    background-color: blue;
+    border: solid blue 2px;
+
+}
+.Paper{
+    background-color: blueviolet;
+    border: solid blueviolet 2px;
+}
+.Scissor{
+    background-color: brown;
+    border: solid brown 2px;
+}
+
+
